@@ -2,3 +2,4 @@
 credentials.json
 html
 .devcontainer
+.devcontainer.json
