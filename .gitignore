@@ -1,5 +1,6 @@
+# Ignorar arquivos e pastas específicos
 .env
 credentials.json
-html
-.devcontainer
-.devcontainer.json
+html/
+.devcontainer/
+
