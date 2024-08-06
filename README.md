@@ -1,13 +1,14 @@
-# Sistema de Login e Registro
+# Sistema de Login com Google e Registro
 
 ## Visão Geral
 
-Este é um projeto de sistema de login e registro desenvolvido em PHP com MySQL, utilizando Docker para simplificar a configuração e execução. Este projeto demonstra habilidades em desenvolvimento web, gerenciamento de sessões e containerização.
+Este é um projeto de sistema de login com google e registro desenvolvido em PHP com MySQL, utilizando Docker para simplificar a configuração e execução. Este projeto demonstra habilidades em desenvolvimento web, gerenciamento de sessões e containerização.
 
 ## Funcionalidades
 
 - **Registro de Usuários**: Permite que novos usuários se registrem com validação de senha.
-- **Login de Usuários**: Verifica credenciais e gerencia sessões de usuário.
+- **Login convencional de Usuários**: Verifica credenciais e gerencia sessões de usuário utilizando login tradicional.
+- **Login com Google de Usuários**: Autenticação utilizando contas do Google, integrando-se facilmente com o serviço Google Login.
 - **Interface de Usuário**: Simples e moderna, com design responsivo.
 
 ## Tecnologias e Ferramentas
@@ -50,7 +51,7 @@ Para rodar o projeto localmente:
 
 5. **Acesse o Sistema**
 
-    Navegue até `http://localhost:8080` para acessar a aplicação.
+    Navegue até `http://localhost` para acessar a aplicação.
 
 
 ## Capturas de Tela
@@ -94,8 +95,8 @@ Para rodar o projeto localmente:
     - **Solução**: Utilização do Docker para criar um ambiente de desenvolvimento isolado e consistente, facilitando a configuração e evitando problemas de compatibilidade.
 
 4. **URLs Inelegíveis para Visitantes**:
-    - **Problema**: URLs longas e complexas, como http://localhost:8080/templates/register.html, são difíceis de lembrar e não são amigáveis para o usuário.
-    - **Solução**: Configuração de URLs amigáveis e limpas utilizando o .htaccess do Apache para redirecionar requisições, tornando as URLs mais simples e intuitivas, como http://localhost:8080/register.
+    - **Problema**: URLs longas e complexas, como http://localhost/views/auth/register.php, são difíceis de lembrar e não são amigáveis para o usuário.
+    - **Solução**: Configuração de URLs amigáveis e limpas utilizando o .htaccess do Apache para redirecionar requisições, tornando as URLs mais simples e intuitivas, como http://localhost/register.
 
 ### Habilidades Demonstradas
 
@@ -121,7 +122,7 @@ Este projeto é licenciado sob a Licença MIT - veja o link **[license](https://
 
 ## Contato
 
-Para mais informações, entre em contato com eng.software.petri@gmail.com.
+Para mais informações, entre em contato **[linkedin](https://www.linkedin.com/in/brunoopetri)**.
 
 ---
 

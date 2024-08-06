@@ -1,5 +1,5 @@
 {
-    "name": "login-google-registration-system",
+    "name": "system-login-with-google-registration",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "web",
     "workspaceFolder": "/var/www",
