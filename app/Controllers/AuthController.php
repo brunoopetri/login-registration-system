@@ -41,6 +41,12 @@ class AuthController extends BaseController
             $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
             $password = $_POST['password'];
 
+            // Salva os dados do formulário na sessão
+            $_SESSION['form_data'] = [
+                'email' => $email,
+                'password' => $password
+            ];
+
             // Valida o formato do email
             if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
                 $this->setSessionMessage('Endereço de e-mail inválido.', 'error');
@@ -80,7 +86,7 @@ class AuthController extends BaseController
             $password = $_POST['password'];
             $confirmPassword = $_POST['confirmPassword'];
 
-            // Salva os dados do formulário na sessão em caso de erro
+            // Salva os dados do formulário na sessão
             $_SESSION['form_data'] = [
             'name' => $name,
             'email' => $email,

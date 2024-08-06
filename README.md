@@ -56,27 +56,41 @@ Para rodar o projeto localmente:
 
 ## Capturas de Tela
 
-![Captura de Tela do Login](https://github.com/user-attachments/assets/b6e33b56-7e8e-4ba5-a02e-411c55801024)
+![Captura de Tela do Login](https://github.com/user-attachments/assets/e9c78e33-1f08-438a-9355-4f8058bd86a3)
 
-![Captura de Tela do Login](https://github.com/user-attachments/assets/ace19868-27b6-4376-99ac-313ca23e4cb3)
+![Captura de Tela do Login](https://github.com/user-attachments/assets/eeb093db-b68d-4dad-90a7-d5a869517cdb)
 
-![Captura de Tela do Login](https://github.com/user-attachments/assets/c960df16-1547-41da-b50e-f24b6e7cc3c7)
+![Captura de Tela do Login](https://github.com/user-attachments/assets/001d37dc-c9ea-4a5a-87bd-976bd5fb6b0c)
 
-![Captura de Tela do Login](https://github.com/user-attachments/assets/92088c82-55c9-4d68-9b6b-9a559bdd8c01)
+![Captura de Tela do Login](https://github.com/user-attachments/assets/ec668220-a7fc-464e-8f04-50d4f4667ed0)
 
-![Captura de Tela do Login](https://github.com/user-attachments/assets/d6aa94ee-9d89-4221-911a-1656241af7fd)
+![Captura de Tela do Login](https://github.com/user-attachments/assets/7a9791f1-41ad-4707-9570-c5a8096acf89)
 
-![Captura de Tela do Login](https://github.com/user-attachments/assets/18c20bc0-8e49-4fbc-945d-c575c4e33343)
+![Captura de Tela do Login](https://github.com/user-attachments/assets/61c24d1d-1f94-40c3-8aca-df82fe0fefb3)
 
-![Captura de Tela do Login](https://github.com/user-attachments/assets/562e093e-e6ce-420a-b5cf-268e26294634)
+![Captura de Tela do Login](https://github.com/user-attachments/assets/b00a85dc-1351-44ef-acf8-aa70985789fd)
 
-![Captura de Tela do Login](https://github.com/user-attachments/assets/05d5c441-cc0e-4980-a625-c5137b538b68)
+![Captura de Tela do Login](https://github.com/user-attachments/assets/a0618da6-8f5b-40eb-9ddc-cfacf50d03e3)
 
-![Captura de Tela do Login](https://github.com/user-attachments/assets/b9785f60-14e5-4d18-8c51-f702f15fa795)
+![Captura de Tela do Login](https://github.com/user-attachments/assets/78ab3e18-2765-4047-838a-3685350ab746)
 
-![Captura de Tela do Login](https://github.com/user-attachments/assets/706f7b09-57d7-4c5d-84a3-adfeb6c6ea89)
+![Captura de Tela do Login](https://github.com/user-attachments/assets/531e94fc-41e6-4f3f-9664-abb2ab12d10c)
 
-![Captura de Tela do Login](https://github.com/user-attachments/assets/91d196ae-4919-42ce-9650-c7d78506b89c)
+![Captura de Tela do Login](https://github.com/user-attachments/assets/60b0d5be-093b-46f8-bc52-0a76b7e2c3b9)
+
+![Captura de Tela do Login](https://github.com/user-attachments/assets/ddba6122-31a0-42bd-be66-df0125e7c57a)
+
+![Captura de Tela do Login](https://github.com/user-attachments/assets/bd74488a-c367-483b-8d7f-7f67ea510851)
+
+![Captura de Tela do Login](https://github.com/user-attachments/assets/ac48d618-68f6-4b58-90cc-5554e89049c4)
+
+![Captura de Tela do Login](https://github.com/user-attachments/assets/d92699f3-fd6f-404d-90d8-20732166c9ae)
+
+![Captura de Tela do Login](https://github.com/user-attachments/assets/36a13ba4-55b8-4a14-9340-ba59248d1bdd)
+
+![Captura de Tela do Login](https://github.com/user-attachments/assets/c7f50596-133d-41be-b6ff-41e20db02ec6)
+
+![Captura de Tela do Login](https://github.com/user-attachments/assets/2a0f052e-8e19-43de-b226-7b370ce8dae4)
 
 ## Problemas Resolvidos e Habilidades Demonstradas
 
@@ -88,7 +102,7 @@ Para rodar o projeto localmente:
 
 2. **Validação de Entradas**:
     - **Problema**: Necessidade de validar e sanitizar entradas do usuário para evitar SQL Injection e outros ataques.
-    - **Solução**: Uso de prepared statements com MySQLi para prevenir SQL Injection, além de validação e sanitização de dados no backend.
+    - **Solução**: Uso de prepared statements com PDO para prevenir SQL Injection, além de validação e sanitização de dados no backend..
 
 3. **Ambiente de Desenvolvimento Consistente**:
     - **Problema**: Garantir que o ambiente de desenvolvimento seja consistente em diferentes máquinas.

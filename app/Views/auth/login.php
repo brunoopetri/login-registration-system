@@ -13,8 +13,8 @@
             <h2>Login</h2>
             <div id="message" class="message" style="display: none;"></div>
             <form method="post" action="/login">                
-                <input type="email" id="email" name="email" placeholder="e-mail" required>                
-                <input type="password" id="password" name="password" placeholder="password" required>
+            <input type="email" id="email" name="email" placeholder="e-mail" required value="<?= isset($_SESSION['form_data']['email']) ? htmlspecialchars($_SESSION['form_data']['email'], ENT_QUOTES) : ''; ?>">
+            <input type="password" id="password" name="password" placeholder="password" required value="<?= isset($_SESSION['form_data']['password']) ? htmlspecialchars($_SESSION['form_data']['password'], ENT_QUOTES) : ''; ?>">
                 <input type="submit" value="Login">
             </form>
         </div>
