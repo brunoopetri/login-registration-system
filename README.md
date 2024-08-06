@@ -14,7 +14,7 @@ Este é um projeto de sistema de login com google e registro desenvolvido em PHP
 ## Tecnologias e Ferramentas
 
 - **PHP 8.3**: Utilizado para o desenvolvimento do backend, incluindo a lógica de autenticação e gerenciamento de sessões.
-- **MySQL 5.7**: Banco de dados relacional utilizado para armazenar as informações dos usuários.
+- **MySQL 8.0**: Banco de dados relacional utilizado para armazenar as informações dos usuários.
 - **Docker**: Ferramenta de containerização utilizada para criar um ambiente de desenvolvimento isolado e consistente.
 - **Apache**: Servidor web utilizado para servir a aplicação PHP.
 - **HTML/CSS**: Utilizados para criar a interface do usuário, garantindo um design responsivo e amigável.
