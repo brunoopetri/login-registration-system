@@ -1,0 +1,17 @@
+{
+    "name": "login-google-registration-system",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "web",
+    "workspaceFolder": "/var/www",
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.shell.linux": "/bin/bash"
+        },
+        "extensions": [
+          "felixfbecker.php-debug",
+          "bmewburn.vscode-intelephense-client"
+        ]
+      }
+    }
+  }

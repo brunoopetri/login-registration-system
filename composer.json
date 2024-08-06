@@ -1,0 +1,19 @@
+{
+    "name": "root/www",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/",
+            "Root\\Www\\": "root/www" 
+        }
+    },
+    "authors": [
+        {
+            "name": "brunoopetri"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.17"
+    }
+}
