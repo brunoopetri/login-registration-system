@@ -28,7 +28,7 @@ Para rodar o projeto localmente:
 
     ```bash
     git clone https://github.com/seu-usuario/login-registration-system.git
-    cd login-registration-system
+    cd sistema-login-com-google-registro
     ```
 
 2. **Configure o Ambiente Docker**
